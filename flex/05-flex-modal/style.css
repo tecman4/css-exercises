@@ -60,7 +60,8 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
-
+  display: flex;
+  justify-content:center
 
   
 
@@ -85,14 +86,13 @@ button.cancel {
 
 }
 
-.box{
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 16px;
-}
+
 .header{
   font-weight: bold;
   font-size:20px;
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   
   }
