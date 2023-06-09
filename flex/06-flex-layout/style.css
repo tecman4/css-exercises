@@ -6,6 +6,9 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
+  flex-direction: column;
+text-align: center;
+justify-content:space-around;
 
 }
 
@@ -29,24 +32,41 @@ input {
 }
 .header{
   display: flex;
+  position:fixed;
+  top:0;
 }
 .left-links{
   display: flex;
   justify-content:left;
   list-style:none;
 
+  left:0;
+
+
 }
 .right-links{
   display: flex;
-  justify-content:right;
+  text-align: right;
   list-style:none;
+  position: fixed;
+  right:0;
+  margin-right: 2%;
+
+
 
 }
 .footer{
   display: flex;
   overflow: auto;
-
+  position:fixed;
+  bottom:0;
+  margin-top: auto;
 }
-.content{
 
+a {
+  text-decoration: none;
+  color: gray;
+}
+li{
+  margin: 10px;
 }
