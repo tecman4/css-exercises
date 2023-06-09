@@ -60,10 +60,6 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
-  display: flex;
-  justify-content:center
-
-  
 
   
 }
@@ -95,4 +91,7 @@ button.cancel {
   align-items: center;
   justify-content: space-between;
   
+  }
+  .text {
+    margin-bottom: 15px;
   }
