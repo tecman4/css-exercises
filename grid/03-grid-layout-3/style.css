@@ -4,6 +4,7 @@
 }
 
 .container {
+  display: grid;
   text-align: center;
 }
 
